@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(204,204,204); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+page {
+    background: #f2f2f2;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {  
+    width: 21cm;
+    height: 59.7cm; 
+
+}
+@media print {
+    body, page {
+    margin: 0;
+    box-shadow: 0;
+    }
+}
+.page-header{
+    width: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 2px solid #000;
+}
+h5{
+    margin: 5px;
+}
+.sppi-logo{
+    display:flex;
+    align-items:center;
+    flex:1;
+}
+.sppi-logo img{
+    margin-right:5px;
+}
+.sppi-text{
+    font-size: 13px;
+    font-weight: 500;
+}
+.sppi-text h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(232, 76, 76);
+}
+.emp-sheet{
+    background: rgb(255, 136, 0);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.pic-frame{
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    background: #000;
+}
+.data-box{
+    width: 100%;
+    border: 1px solid black;
+    height: auto;
+    margin: 5px 0;
+}
+.col-12{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    margin: 5px;
+}
+.flex-box .col-3{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0;
+    border-bottom: none;
+}
+.flex-box .col-3:last-child{
+    border-bottom: 1px solid black;
+}
+.col-3{
+    width: 25%;
+    margin: 5px;
+    padding: 14px 5px 0;
+    position: relative;
+    flex: 1;
+
+}
+.col-12 .col-10{
+    width: 100%;
+    margin: 5px;
+    padding: 14px 5px 0;
+    position: relative;
+}
+.col-3 label, .col-10 label{
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+th label, td label{
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.personal-data{
+    padding: 10px 0;
+}
+table{
+    width: 100%;
+    margin-top: 5px;
+    border: none;
+    margin: 5px;
+    flex: 3;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+th, td{
+    text-align: left;
+    position: relative;
+    padding: 14px 5px 5px 5px;
+}
+.text-stylee{
+    font-size: 15px;
+    margin: 20px 0;
+    word-spacing: 3px;
+    line-height: 20px;
+}
+.signature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.signature .sig-text{
+    border-top: 1px solid black;
+    padding: 5px 40px;
+    font-size: 14px;
+}
+.h5-text{
+    margin-left: 20px;
+}
+.h5-text span{
+    font-weight: normal;
+}

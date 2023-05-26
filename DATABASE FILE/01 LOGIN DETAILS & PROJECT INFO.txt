@@ -1,0 +1,18 @@
+**Database Name: employeeigniter**
+
+
+**Admin Login Details**
+
+Username: johnrod.a.malsi@gmail.com
+Password: password0101
+
+**Employee Login Details**
+
+Email	: jaylord@gmail.com
+Password: Jaylord123
+
+Email	: malik@gmail.com
+Password: malik
+
+Email	: marvin@gmail.com
+Password: marvin
