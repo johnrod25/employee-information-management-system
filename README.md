@@ -41,7 +41,7 @@ This Employee Management System is a comprehensive solution designed to streamli
 **Admin Login Details**
 
 - Username: johnrod.a.malsi@gmail.com
-- Password: password0101
+- Password: johnrod123
 
 **Employee Login Details**
 - Email	: jaylord@gmail.com
